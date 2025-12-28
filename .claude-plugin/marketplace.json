@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "plugin-dev-marketplace",
+  "owner": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "version": "1.0.0",
+  "description": "Local marketplace for plugin development toolkit",
+  "plugins": [
+    {
+      "name": "plugin-dev",
+      "version": "0.1.0",
+      "description": "Comprehensive toolkit for developing Claude Code plugins with expert guidance on hooks, MCP integration, plugin structure, commands, agents, skills, and settings",
+      "author": {
+        "name": "Daisy Hollman",
+        "email": "daisy@anthropic.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "plugin-development",
+        "hooks",
+        "mcp",
+        "commands",
+        "agents",
+        "skills",
+        "automation",
+        "toolkit"
+      ],
+      "source": {
+        "type": "directory",
+        "path": "."
+      }
+    }
+  ]
+}
