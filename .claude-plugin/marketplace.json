@@ -28,8 +28,8 @@
         "toolkit"
       ],
       "source": {
-        "type": "directory",
-        "path": "."
+        "type": "github",
+        "repo": "AdlerView/plugin-dev"
       }
     }
   ]
