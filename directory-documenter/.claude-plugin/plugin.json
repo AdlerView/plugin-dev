@@ -1,0 +1,15 @@
+{
+  "name": "directory-documenter",
+  "version": "1.0.0",
+  "description": "Automatically documents all subdirectories of a root path by creating CLAUDE.md files with directory structure and file descriptions",
+  "author": {
+    "name": "User"
+  },
+  "keywords": [
+    "documentation",
+    "directory",
+    "structure",
+    "automation",
+    "CLAUDE.md"
+  ]
+}

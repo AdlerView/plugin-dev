@@ -1,0 +1,8 @@
+{
+  "name": "instruction",
+  "version": "1.0.0",
+  "description": "Deterministische Konsolidierung aller CLAUDE.md-Dateien in eine kanonische Root-CLAUDE.md",
+  "author": {
+    "name": "User"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "skill-development",
+  "version": "0.1.0",
+  "description": "Creating and reviewing Claude Code plugin skills with SKILL.md structure and progressive disclosure",
+  "author": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "skills",
+    "SKILL.md"
+  ]
+}

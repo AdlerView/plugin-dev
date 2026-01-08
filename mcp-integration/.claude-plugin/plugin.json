@@ -1,0 +1,16 @@
+{
+  "name": "mcp-integration",
+  "version": "0.1.0",
+  "description": "Integrating Model Context Protocol (MCP) servers into Claude Code plugins for external tools and services",
+  "author": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "mcp",
+    "integration",
+    "servers"
+  ]
+}

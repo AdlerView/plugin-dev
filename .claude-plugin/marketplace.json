@@ -5,29 +5,112 @@
     "name": "Daisy Hollman",
     "email": "daisy@anthropic.com"
   },
-  "version": "1.0.0",
-  "description": "Local marketplace for plugin development toolkit",
+  "version": "2.0.0",
+  "description": "Modular marketplace for Claude Code plugin development - install only what you need",
   "plugins": [
     {
-      "name": "plugin-dev",
+      "name": "plugin-structure",
       "version": "0.1.0",
-      "description": "Comprehensive toolkit for developing Claude Code plugins with expert guidance on hooks, MCP integration, plugin structure, commands, agents, skills, and settings",
+      "description": "Plugin scaffolding, directory layout, manifest configuration, and validation for Claude Code plugins",
       "author": {
         "name": "Daisy Hollman",
         "email": "daisy@anthropic.com"
       },
       "license": "MIT",
-      "keywords": [
-        "plugin-development",
-        "hooks",
-        "mcp",
-        "commands",
-        "agents",
-        "skills",
-        "automation",
-        "toolkit"
-      ],
-      "source": "./"
+      "keywords": ["plugin-development", "scaffolding", "structure", "validation"],
+      "source": "./plugin-structure"
+    },
+    {
+      "name": "plugin-settings",
+      "version": "0.1.0",
+      "description": "User-configurable plugin settings via .claude/plugin-name.local.md files with YAML frontmatter",
+      "author": {
+        "name": "Daisy Hollman",
+        "email": "daisy@anthropic.com"
+      },
+      "license": "MIT",
+      "keywords": ["plugin-development", "settings", "configuration"],
+      "source": "./plugin-settings"
+    },
+    {
+      "name": "skill-development",
+      "version": "0.1.0",
+      "description": "Creating and reviewing Claude Code plugin skills with SKILL.md structure and progressive disclosure",
+      "author": {
+        "name": "Daisy Hollman",
+        "email": "daisy@anthropic.com"
+      },
+      "license": "MIT",
+      "keywords": ["plugin-development", "skills", "SKILL.md"],
+      "source": "./skill-development"
+    },
+    {
+      "name": "command-development",
+      "version": "0.1.0",
+      "description": "Creating Claude Code plugin slash commands with YAML frontmatter and argument handling",
+      "author": {
+        "name": "Daisy Hollman",
+        "email": "daisy@anthropic.com"
+      },
+      "license": "MIT",
+      "keywords": ["plugin-development", "commands", "slash-commands"],
+      "source": "./command-development"
+    },
+    {
+      "name": "agent-development",
+      "version": "0.1.0",
+      "description": "Creating Claude Code plugin agents with system prompts, triggering conditions, and tool configuration",
+      "author": {
+        "name": "Daisy Hollman",
+        "email": "daisy@anthropic.com"
+      },
+      "license": "MIT",
+      "keywords": ["plugin-development", "agents", "subagents"],
+      "source": "./agent-development"
+    },
+    {
+      "name": "hook-development",
+      "version": "0.1.0",
+      "description": "Creating Claude Code plugin hooks for event-driven automation (PreToolUse, PostToolUse, Stop, etc.)",
+      "author": {
+        "name": "Daisy Hollman",
+        "email": "daisy@anthropic.com"
+      },
+      "license": "MIT",
+      "keywords": ["plugin-development", "hooks", "automation", "events"],
+      "source": "./hook-development"
+    },
+    {
+      "name": "mcp-integration",
+      "version": "0.1.0",
+      "description": "Integrating Model Context Protocol (MCP) servers into Claude Code plugins for external tools and services",
+      "author": {
+        "name": "Daisy Hollman",
+        "email": "daisy@anthropic.com"
+      },
+      "license": "MIT",
+      "keywords": ["plugin-development", "mcp", "integration", "servers"],
+      "source": "./mcp-integration"
+    },
+    {
+      "name": "directory-documenter",
+      "version": "1.0.0",
+      "description": "Automatically documents all subdirectories of a root path by creating CLAUDE.md files with directory structure and file descriptions",
+      "author": {
+        "name": "User"
+      },
+      "keywords": ["documentation", "directory", "structure", "automation", "CLAUDE.md"],
+      "source": "./directory-documenter"
+    },
+    {
+      "name": "instruction",
+      "version": "1.0.0",
+      "description": "Deterministische Konsolidierung aller CLAUDE.md-Dateien in eine kanonische Root-CLAUDE.md",
+      "author": {
+        "name": "User"
+      },
+      "keywords": ["documentation", "consolidation", "CLAUDE.md", "index"],
+      "source": "./instruction"
     }
   ]
 }

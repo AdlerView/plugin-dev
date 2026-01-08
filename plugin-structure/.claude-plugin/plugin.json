@@ -1,0 +1,16 @@
+{
+  "name": "plugin-structure",
+  "version": "0.1.0",
+  "description": "Plugin scaffolding, directory layout, manifest configuration, and validation for Claude Code plugins",
+  "author": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "scaffolding",
+    "structure",
+    "validation"
+  ]
+}

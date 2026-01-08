@@ -1,0 +1,16 @@
+{
+  "name": "hook-development",
+  "version": "0.1.0",
+  "description": "Creating Claude Code plugin hooks for event-driven automation (PreToolUse, PostToolUse, Stop, etc.)",
+  "author": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "hooks",
+    "automation",
+    "events"
+  ]
+}

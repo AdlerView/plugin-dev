@@ -1,0 +1,16 @@
+{
+  "name": "plugin-settings",
+  "version": "0.1.0",
+  "description": "User-configurable plugin settings via .claude/plugin-name.local.md files with YAML frontmatter",
+  "author": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "settings",
+    "configuration",
+    "local-md"
+  ]
+}

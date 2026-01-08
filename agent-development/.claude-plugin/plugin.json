@@ -1,0 +1,15 @@
+{
+  "name": "agent-development",
+  "version": "0.1.0",
+  "description": "Creating Claude Code plugin agents with system prompts, triggering conditions, and tool configuration",
+  "author": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "agents",
+    "subagents"
+  ]
+}

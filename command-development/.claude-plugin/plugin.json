@@ -1,0 +1,15 @@
+{
+  "name": "command-development",
+  "version": "0.1.0",
+  "description": "Creating Claude Code plugin slash commands with YAML frontmatter and argument handling",
+  "author": {
+    "name": "Daisy Hollman",
+    "email": "daisy@anthropic.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "plugin-development",
+    "commands",
+    "slash-commands"
+  ]
+}
